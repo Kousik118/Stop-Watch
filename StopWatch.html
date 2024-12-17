@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Timer_Task.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@100..900&family=Orbitron:wght@400..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Timer_Task.css">
+</head>
+<body>
+    <div id="clock"><span id="time"><input id="input" value="00" type="text" readonly><span id="mid">:</span><input type="text" id="inputs" value="00" readonly></span></div>
+    <div id="buttons">
+        <button class="button" id="start" onclick="start()">start</button>
+        <button class="button" id="stop" onclick="stop()">stop</button>
+        <button class="button" id="restart" onclick="reset()">restart</button>
+    </div>
+</body>
